@@ -45,8 +45,9 @@ async function fetchData() {
           }
           html += `<h1>` + parsedData[j][1] + `</h1>`
           html += `<h4>` + parsedData[j][2] + `</h4>`
-          html += `<a class="btn btn-sm btn-primary" href="` + parsedData[j][3] + `" target="_blank">Letra</a>&nbsp;`
+          html += `<a class="btn btn-sm btn-primary" href="` + parsedData[j][3] + `" target="_blank">YouTube</a>&nbsp;`
           html += `<a class="btn btn-sm btn-primary" href="` + parsedData[j][4] + `" target="_blank">Cifra</a>&nbsp;`
+          html += `<a class="btn btn-sm btn-primary" href="` + parsedData[j][5] + `" target="_blank">Letra</a>&nbsp;`
           html += `<br><br><br>`
         }
       }
